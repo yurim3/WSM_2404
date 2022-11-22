@@ -1,0 +1,7 @@
+.nav-list li:nth-child(3) {
+    flex-grow: 0;/* 기본값: 0 */
+    flex-shrink: 0; /* 기본값: 1 */
+    flex-basis: 200px; /* 기본값: auto */
+    flex: 0 0 200px;
+    /* border: 선두께 선모양(solid) 선색깔; */
+}
